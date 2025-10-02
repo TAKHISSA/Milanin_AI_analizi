@@ -1,6 +1,6 @@
 # 📊 Mila'nın AI Analiz Aracı
 
-Mila'nın AI Analiz Aracı, müşteri–bot sohbetlerini yapay zekâ ile analiz eden Python tabanlı bir sistemdir. Bu proje, Grispi’nin yapay zekâ destekli müşteri hizmetleri analiz aracının ilk prototipi olarak geliştirilmiştir.
+Mila'nın AI Analiz Aracı, müşteri–bot sohbetlerini yapay zekâ ile analiz eden Python tabanlı bir sistemdir. Bu proje, Trendyol’un yapay zekâ destekli müşteri hizmetleri analiz aracının ilk prototipi olarak geliştirilmiştir.
 
 ## ✨ Özellikler
 
