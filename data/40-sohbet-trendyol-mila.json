@@ -1,0 +1,1632 @@
+[
+    {
+    "sohbet_id": 90001,
+    "tarih_saat": "04.09.2024 09:00:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 09:00:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 09:00:15",
+    "text": "Siparişimde bir ürün eksik geldi. Ne yapmalıyım?"
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 09:00:30",
+    "text": "Sipariş numaranızı alabilir miyim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 09:00:45",
+    "text": "98765432"
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 09:01:00",
+    "text": "Kontrol ediyorum... Siparişinizde bir hata olduğunu görüyorum. Yeni ürününüz en kısa sürede gönderilecektir. Özür dileriz."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 09:01:20",
+    "text": "Harika, teşekkür ederim!"
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 09:01:30",
+    "text": "Rica ederim, iyi günler dileriz."
+    }
+    ],
+    "yanit_durumu": "Çözüldü",
+    "sentiment": "Pozitif",
+    "tur": "Şikayet",
+    "intent": "Eksik ürün",
+    "intent_detay": "Sipariş teslimatında eksik ürün"
+    },
+    {
+    "sohbet_id": 90002,
+    "tarih_saat": "04.09.2024 09:15:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 09:15:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 09:15:18",
+    "text": "Hesabıma giriş yapamıyorum, şifremi unuttum."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 09:15:35",
+    "text": "Şifre sıfırlama linki için e-posta adresinizi girer misiniz?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 09:15:50",
+    "text": "Şifremi sıfırlama linki gelmiyor. Başka bir yol yok mu?"
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 09:16:10",
+    "text": "E-posta kutunuzun spam klasörünü kontrol ettiniz mi?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 09:16:25",
+    "text": "Evet, kontrol ettim. Hiçbir yerde yok. Bu durum çok can sıkıcı."
+    }
+    ],
+    "yanit_durumu": "Çözülemedi",
+    "sentiment": "Negatif",
+    "tur": "Sorun",
+    "intent": "Şifre sıfırlama",
+    "intent_detay": "E-posta linki gelmemesi"
+    },
+    {
+    "sohbet_id": 90003,
+    "tarih_saat": "04.09.2024 09:30:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 09:30:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 09:30:10",
+    "text": "İade süreci hakkında bilgi almak istiyorum."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 09:30:25",
+    "text": "İade sürecimiz 14 gündür. Ürünü orijinal paketiyle birlikte kargoya vermeniz yeterlidir. İade kodunuzu oluşturmak için sipariş numaranızı alabilir miyim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 09:30:40",
+    "text": "Anladım, teşekkürler."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 09:30:50",
+    "text": "Başka bir sorunuz olursa buradayım."
+    }
+    ],
+    "yanit_durumu": "Çözüldü",
+    "sentiment": "Nötr",
+    "tur": "Bilgi alma",
+    "intent": "İade",
+    "intent_detay": "İade prosedürü hakkında bilgi"
+    },
+    {
+    "sohbet_id": 90004,
+    "tarih_saat": "04.09.2024 09:45:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 09:45:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 09:45:12",
+    "text": "Kupon kodum çalışmıyor. 'Hoş Geldin15' kuponunu kullanmak istiyorum ama hata veriyor."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 09:45:25",
+    "text": "Kuponunuzun geçerlilik koşullarını kontrol ettiniz mi? Örneğin, minimum sepet tutarı veya belirli ürünler için geçerli olup olmadığı gibi."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 09:45:40",
+    "text": "Evet, her şeyi kontrol ettim. Sepetim de 200 TL üzerinde. Ne yapabilirim?"
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 09:46:00",
+    "text": "Sistemde kuponunuzla ilgili bir sorun görünmüyor. Lütfen farklı bir tarayıcıdan denemeyi veya önbelleğinizi temizlemeyi deneyin."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 09:46:15",
+    "text": "Bunları zaten denedim! Sizinle konuşmak zaman kaybı oldu. Hiç yardımcı olmuyorsunuz."
+    }
+    ],
+    "yanit_durumu": "Çözülemedi",
+    "sentiment": "Negatif",
+    "tur": "Sorun",
+    "intent": "Kupon",
+    "intent_detay": "Kupon kodunun çalışmaması"
+    },
+    {
+    "sohbet_id": 90005,
+    "tarih_saat": "04.09.2024 10:00:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 10:00:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 10:00:10",
+    "text": "Siparişimi iptal etmek istiyorum."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 10:00:25",
+    "text": "Sipariş numaranızı paylaşır mısınız?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 10:00:40",
+    "text": "76458902"
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 10:01:00",
+    "text": "Siparişiniz başarılı bir şekilde iptal edilmiştir. İadeniz en kısa sürede gerçekleştirilecektir."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 10:01:15",
+    "text": "Çok teşekkür ederim!"
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 10:01:25",
+    "text": "Rica ederim, iyi günler."
+    }
+    ],
+    "yanit_durumu": "Çözüldü",
+    "sentiment": "Pozitif",
+    "tur": "İstek",
+    "intent": "İptal",
+    "intent_detay": "Sipariş iptali"
+    },
+    {
+    "sohbet_id": 90006,
+    "tarih_saat": "04.09.2024 10:15:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 10:15:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 10:15:15",
+    "text": "İade kargom ne zaman ulaşır?"
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 10:15:30",
+    "text": "İade takip kodunuzu paylaşır mısınız?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 10:15:45",
+    "text": "654321987"
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 10:16:00",
+    "text": "Kontrol ediyorum... İadeniz 2 gün içinde elimize ulaşacaktır."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 10:16:15",
+    "text": "Tamam, teşekkür ederim."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 10:16:25",
+    "text": "Rica ederim, iyi günler dileriz."
+    }
+    ],
+    "yanit_durumu": "Çözüldü",
+    "sentiment": "Nötr",
+    "tur": "Soru",
+    "intent": "İade",
+    "intent_detay": "İade kargosu takibi"
+    },
+    {
+    "sohbet_id": 90007,
+    "tarih_saat": "04.09.2024 10:30:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 10:30:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 10:30:10",
+    "text": "Ürünüm defolu geldi. Değişim veya iade yapmak istiyorum."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 10:30:25",
+    "text": "Bu konuda size yardımcı olabilirim. Lütfen sipariş numaranızı ve ürünün defolu kısmının fotoğrafını gönderin."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 10:30:40",
+    "text": "Telefonumdan fotoğraf çekemiyorum, başka bir yol yok mu?"
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 10:30:55",
+    "text": "Maalesef, defolu ürün işlemleri için fotoğraf kanıtı gerekmektedir."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 10:31:10",
+    "text": "Bu çok saçma! O zaman iade de yapamayacak mıyım?"
+    }
+    ],
+    "yanit_durumu": "Çözülemedi",
+    "sentiment": "Negatif",
+    "tur": "Şikayet",
+    "intent": "Defolu ürün",
+    "intent_detay": "Değişim/iade yapılamaması"
+    },
+    {
+    "sohbet_id": 90008,
+    "tarih_saat": "04.09.2024 10:45:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 10:45:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 10:45:10",
+    "text": "Üyelik bilgilerimi güncellemek istiyorum."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 10:45:25",
+    "text": "Hesabım sayfasından 'Bilgilerimi Düzenle' seçeneği ile bu işlemi gerçekleştirebilirsiniz. Eğer sorun yaşarsanız, tekrar bana yazın."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 10:45:40",
+    "text": "Teşekkür ederim, deneyeceğim."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 10:45:50",
+    "text": "Rica ederim. Başka bir şeye ihtiyacınız olursa buradayım."
+    }
+    ],
+    "yanit_durumu": "Çözüldü",
+    "sentiment": "Nötr",
+    "tur": "İstek",
+    "intent": "Hesap bilgisi",
+    "intent_detay": "Üyelik bilgisi güncelleme"
+    },
+    {
+    "sohbet_id": 90009,
+    "tarih_saat": "04.09.2024 11:00:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 11:00:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 11:00:15",
+    "text": "Faturamda bir yanlışlık var. Fiyatlar hatalı görünüyor."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 11:00:30",
+    "text": "Sipariş numaranızı ve faturadaki hatalı fiyat bilgisini paylaşır mısınız?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 11:00:45",
+    "text": "Sipariş numarası 54897213. Fatura detayları ekte."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 11:01:00",
+    "text": "Kontrol ediyorum... Faturanızdaki hatayı düzelterek yeni faturayı size e-posta ile göndereceğim. Sorun için özür dileriz."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 11:01:20",
+    "text": "Çok teşekkürler, çok iyi oldu bu."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 11:01:30",
+    "text": "Rica ederim, başka bir konuda yardımcı olmamı ister misiniz?"
+    }
+    ],
+    "yanit_durumu": "Çözüldü",
+    "sentiment": "Pozitif",
+    "tur": "Şikayet",
+    "intent": "Fatura hatası",
+    "intent_detay": "Fatura fiyatı hatası"
+    },
+    {
+    "sohbet_id": 90010,
+    "tarih_saat": "04.09.2024 11:15:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 11:15:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 11:15:10",
+    "text": "Siparişimi iptal etmek istiyorum ama sistemde 'iptal et' butonu görünmüyor."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 11:15:25",
+    "text": "Siparişiniz kargoya verildiği için 'iptal et' butonu görünmüyor olabilir. Bu durumda iade süreciyle devam etmeniz gerekir."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 11:15:40",
+    "text": "Ama siparişim daha yeni kargoya verildi. İptal edebilmem gerekirdi. Çok kötü bir hizmet."
+    }
+    ],
+    "yanit_durumu": "Çözülemedi",
+    "sentiment": "Negatif",
+    "tur": "Sorun",
+    "intent": "İptal",
+    "intent_detay": "Sipariş iptali yapılamaması"
+    },
+    {
+    "sohbet_id": 90011,
+    "tarih_saat": "04.09.2024 11:30:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 11:30:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 11:30:10",
+    "text": "Ürün stok bilgisi hakkında bilgi almak istiyorum. Stokta yok görünüyor ama ne zaman gelir?"
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 11:30:25",
+    "text": "Ürün kodunu veya adını paylaşır mısınız?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 11:30:40",
+    "text": "Elbise kodu: AB-456."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 11:31:00",
+    "text": "Maalesef, bu ürün için henüz bir stok yenileme tarihi belirlenmedi."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 11:31:15",
+    "text": "Anladım. Teşekkürler yine de."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 11:31:25",
+    "text": "Rica ederim."
+    }
+    ],
+    "yanit_durumu": "Çözüldü",
+    "sentiment": "Nötr",
+    "tur": "Soru",
+    "intent": "Stok",
+    "intent_detay": "Stok yenileme tarihi"
+    },
+    {
+    "sohbet_id": 90012,
+    "tarih_saat": "04.09.2024 11:45:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 11:45:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 11:45:15",
+    "text": "Kredi kartımdan iki kez çekim yapılmış."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 11:45:30",
+    "text": "Sipariş numaranızı ve banka ekstrenizin ekran görüntüsünü paylaşır mısınız?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 11:45:45",
+    "text": "Banka ekstresini çekemedim, telefonda uygulamam çalışmıyor."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 11:46:00",
+    "text": "Maalesef, iki kez çekim işlemi için banka ekstresi kanıtı gereklidir."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 11:46:15",
+    "text": "O zaman ne yapacağım? Bana bir müşteri temsilcisi bağlayın. Bu botun bir faydası yok."
+    }
+    ],
+    "yanit_durumu": "Çözülemedi",
+    "sentiment": "Negatif",
+    "tur": "Şikayet",
+    "intent": "Ödeme",
+    "intent_detay": "Çifte çekim"
+    },
+    {
+    "sohbet_id": 90013,
+    "tarih_saat": "04.09.2024 12:00:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 12:00:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 12:00:10",
+    "text": "Siparişim hala hazırlanıyor görünüyor. Ne zaman kargoya verilir?"
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 12:00:25",
+    "text": "Sipariş numaranızı alabilir miyim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 12:00:40",
+    "text": "21345678"
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 12:00:55",
+    "text": "Kontrol ediyorum... Siparişiniz bugün kargoya verilecek. Takip numaranız e-posta adresinize gönderilecektir."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 12:01:10",
+    "text": "Tamam, çok sağolun."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 12:01:20",
+    "text": "Rica ederim. İyi günler dileriz."
+    }
+    ],
+    "yanit_durumu": "Çözüldü",
+    "sentiment": "Nötr",
+    "tur": "Soru",
+    "intent": "Kargo",
+    "intent_detay": "Kargo durumu"
+    },
+    {
+    "sohbet_id": 90014,
+    "tarih_saat": "04.09.2024 12:15:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 12:15:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 12:15:10",
+    "text": "Kredi kartım neden reddediliyor?"
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 12:15:25",
+    "text": "Kredi kartı reddedilme nedenlerini güvenlik ve gizlilik nedeniyle göremiyorum. Bu durumu bankanızla görüşmeniz en doğru seçenek olacaktır."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 12:15:40",
+    "text": "Siz yardımcı olamayacaksanız neden buradasınız? Çok sinir bozucu bir durum."
+    }
+    ],
+    "yanit_durumu": "Çözülemedi",
+    "sentiment": "Negatif",
+    "tur": "Sorun",
+    "intent": "Ödeme",
+    "intent_detay": "Kredi kartı reddedilmesi"
+    },
+    {
+    "sohbet_id": 90015,
+    "tarih_saat": "04.09.2024 12:30:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 12:30:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 12:30:10",
+    "text": "Ürün beden tablosunu bulamıyorum."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 12:30:25",
+    "text": "Hangi ürünü arıyorsunuz? Genellikle ürün sayfasında 'Beden Tablosu' başlığı altında bu bilgi yer alır."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 12:30:40",
+    "text": "Tamam, buldum şimdi. Gözümden kaçmış."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 12:30:55",
+    "text": "Sevindim. Başka bir sorunuz olursa çekinmeyin."
+    }
+    ],
+    "yanit_durumu": "Çözüldü",
+    "sentiment": "Nötr",
+    "tur": "Bilgi alma",
+    "intent": "Beden tablosu",
+    "intent_detay": "Ürün beden tablosu"
+    },
+    {
+    "sohbet_id": 90016,
+    "tarih_saat": "04.09.2024 12:45:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 12:45:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 12:45:15",
+    "text": "Adresimi yanlış girdim, nasıl düzeltebilirim?"
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 12:45:30",
+    "text": "Siparişiniz kargoya verilmediyse, hesabım bölümünden sipariş detaylarına giderek adresinizi güncelleyebilirsiniz."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 12:45:45",
+    "text": "Siparişimi dün verdim, kargoya verilmiş. O zaman ne olacak?"
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 12:46:00",
+    "text": "Bu durumda kargo firmasıyla iletişime geçmeniz gerekmektedir."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 12:46:15",
+    "text": "Her şey için beni kargoya yönlendiriyorsunuz. Hiçbir işe yaramıyorsunuz."
+    }
+    ],
+    "yanit_durumu": "Çözülemedi",
+    "sentiment": "Negatif",
+    "tur": "Sorun",
+    "intent": "Adres hatası",
+    "intent_detay": "Yanlış adres girişi"
+    },
+    {
+    "sohbet_id": 90017,
+    "tarih_saat": "04.09.2024 13:00:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 13:00:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 13:00:10",
+    "text": "Ürün yorumumu neden yayınlamadınız?"
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 13:00:25",
+    "text": "Yorumlar, içerik kurallarına uygunluk açısından incelenmektedir. Yorumunuzun kurallarımıza aykırı bir içeriği olabilir."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 13:00:40",
+    "text": "Hangi kurala aykırı? Bana bir açıklama yapın. Çok sinirliyim."
+    }
+    ],
+    "yanit_durumu": "Çözülemedi",
+    "sentiment": "Negatif",
+    "tur": "Şikayet",
+    "intent": "Yorum",
+    "intent_detay": "Yorum yayınlanmaması"
+    },
+    {
+    "sohbet_id": 90018,
+    "tarih_saat": "04.09.2024 13:15:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 13:15:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 13:15:10",
+    "text": "Sitede gezinirken sürekli hata alıyorum. '404 not found' diyor."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 13:15:25",
+    "text": "Yaşadığınız sorun için üzgünüz. Teknik ekibimiz bu hatayı en kısa sürede çözecektir."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 13:15:40",
+    "text": "Anladım. Teşekkürler."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 13:15:55",
+    "text": "Yardımcı olabildiğime sevindim. İyi günler."
+    }
+    ],
+    "yanit_durumu": "Çözüldü",
+    "sentiment": "Nötr",
+    "tur": "Şikayet",
+    "intent": "Web sitesi",
+    "intent_detay": "Teknik hata"
+    },
+    {
+    "sohbet_id": 90019,
+    "tarih_saat": "04.09.2024 13:30:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 13:30:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 13:30:10",
+    "text": "Sipariş verdim ama hesabımdan para çekildi. Siparişlerim sayfasında görünmüyor."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 13:30:25",
+    "text": "Ödeme bilgilerinizle bir sorun olabilir. Lütfen bir süre bekleyin, işlem bankanız tarafından iade edilebilir."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 13:30:40",
+    "text": "Yine mi bekleyeceğim? Bu ne kadar kötü bir sistem. Paramı geri istiyorum. Ne yapacağım şimdi?"
+    }
+    ],
+    "yanit_durumu": "Çözülemedi",
+    "sentiment": "Negatif",
+    "tur": "Sorun",
+    "intent": "Ödeme",
+    "intent_detay": "Hesaptan para çekilip siparişin oluşmaması"
+    },
+    {
+    "sohbet_id": 90020,
+    "tarih_saat": "04.09.2024 13:45:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 13:45:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 13:45:10",
+    "text": "Ürün hakkında bilgi almak istiyorum, kumaşı nedir?"
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 13:45:25",
+    "text": "Hangi ürünü merak ediyorsunuz? Genellikle ürün açıklamasında bu bilgi yer almaktadır."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 13:45:40",
+    "text": "Tamam, kontrol ettim. Açıklamada yazıyormuş, teşekkür ederim."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 13:45:55",
+    "text": "Rica ederim, iyi günler."
+    }
+    ],
+    "yanit_durumu": "Çözüldü",
+    "sentiment": "Nötr",
+    "tur": "Bilgi alma",
+    "intent": "Ürün",
+    "intent_detay": "Ürün bilgisi"
+    },
+    {
+    "sohbet_id": 90021,
+    "tarih_saat": "04.09.2024 14:00:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 14:00:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 14:00:15",
+    "text": "Siparişimde promosyon ürünleri eksik geldi. Ne yapabilirim?"
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 14:00:30",
+    "text": "Sipariş numaranızı ve eksik gelen promosyon ürünlerini paylaşır mısınız?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 14:00:45",
+    "text": "85472196. Eksik olanlar çanta ve cüzdan."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 14:01:00",
+    "text": "Eksik ürünleriniz en kısa sürede kargoya verilecektir. Yaşanan aksaklık için özür dileriz."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 14:01:20",
+    "text": "Çok teşekkür ederim, hızlı çözüm için."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 14:01:30",
+    "text": "Rica ederim. Başka bir şey olursa buradayım."
+    }
+    ],
+    "yanit_durumu": "Çözüldü",
+    "sentiment": "Pozitif",
+    "tur": "Şikayet",
+    "intent": "Eksik ürün",
+    "intent_detay": "Eksik promosyon ürünleri"
+    },
+    {
+    "sohbet_id": 90022,
+    "tarih_saat": "04.09.2024 14:15:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 14:15:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 14:15:10",
+    "text": "Siparişimi iptal ettim ama param hala iade edilmedi."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 14:15:25",
+    "text": "Sipariş numaranızı alabilir miyim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 14:15:40",
+    "text": "98745612"
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 14:15:55",
+    "text": "İadenizin bankanıza yansıma süresi 1-5 iş günüdür. Lütfen banka ekstrenizi kontrol edin."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 14:16:10",
+    "text": "Siparişimi 1 hafta önce iptal ettim zaten! Çok iyi bir hizmet değil bu."
+    }
+    ],
+    "yanit_durumu": "Çözülemedi",
+    "sentiment": "Negatif",
+    "tur": "Şikayet",
+    "intent": "İade",
+    "intent_detay": "Para iadesi gecikmesi"
+    },
+    {
+    "sohbet_id": 90023,
+    "tarih_saat": "04.09.2024 14:30:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 14:30:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 14:30:10",
+    "text": "Ürünümde hasar var, kargodan kaynaklı olduğunu düşünüyorum."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 14:30:25",
+    "text": "Sipariş numaranızı ve ürünün hasarlı fotoğrafını gönderir misiniz?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 14:30:40",
+    "text": "78965412. Fotoğrafı çektim, gönderiyorum. "
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 14:30:55",
+    "text": "Fotoğrafınız incelenmiştir. Hasarlı ürününüz en kısa sürede yenisiyle değiştirilecektir."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 14:31:10",
+    "text": "Çok iyi, teşekkürler!"
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 14:31:20",
+    "text": "Rica ederim, iyi günler dileriz."
+    }
+    ],
+    "yanit_durumu": "Çözüldü",
+    "sentiment": "Pozitif",
+    "tur": "Şikayet",
+    "intent": "Hasarlı ürün",
+    "intent_detay": "Kargodan kaynaklı hasar"
+    },
+    {
+    "sohbet_id": 90024,
+    "tarih_saat": "04.09.2024 14:45:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 14:45:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 14:45:10",
+    "text": "Ürünü denedim ve rengini beğenmedim, değişim yapmak istiyorum."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 14:45:25",
+    "text": "İade sürecini başlatarak istediğiniz renkteki ürünü yeniden sipariş edebilirsiniz."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 14:45:40",
+    "text": "Değişim seçeneği yok mu? İade ve yeniden sipariş çok zahmetli. Çok kötü bir sistem."
+    }
+    ],
+    "yanit_durumu": "Çözülemedi",
+    "sentiment": "Negatif",
+    "tur": "Şikayet",
+    "intent": "Değişim",
+    "intent_detay": "Değişim seçeneği olmaması"
+    },
+    {
+    "sohbet_id": 90025,
+    "tarih_saat": "04.09.2024 15:00:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 15:00:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 15:00:10",
+    "text": "İndirim kampanyaları hakkında bilgi almak istiyorum."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 15:00:25",
+    "text": "Kampanyalarımız ana sayfamızda ve e-posta bültenimizde yer almaktadır. E-posta bültenimize üye olarak güncel kampanyalardan haberdar olabilirsiniz."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 15:00:40",
+    "text": "Tamam, kontrol edeceğim. Teşekkürler."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 15:00:55",
+    "text": "Rica ederim, iyi günler."
+    }
+    ],
+    "yanit_durumu": "Çözüldü",
+    "sentiment": "Nötr",
+    "tur": "Bilgi alma",
+    "intent": "İndirim",
+    "intent_detay": "Kampanya bilgisi"
+    },
+    {
+    "sohbet_id": 90026,
+    "tarih_saat": "04.09.2024 15:15:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 15:15:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 15:15:10",
+    "text": "Sipariş verdim ama yanlış ürün geldi."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 15:15:25",
+    "text": "Sipariş numaranızı ve yanlış gelen ürünün fotoğrafını paylaşır mısınız?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 15:15:40",
+    "text": "65432198. Fotoğrafı ekledim."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 15:15:55",
+    "text": "Kontrol ediyorum... Doğru ürününüz en kısa sürede adresinize gönderilecektir. Yanlış gelen ürünü kargo ile ücretsiz olarak iade edebilirsiniz."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 15:16:10",
+    "text": "Çok iyi, teşekkür ederim."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 15:16:20",
+    "text": "Rica ederim, iyi günler."
+    }
+    ],
+    "yanit_durumu": "Çözüldü",
+    "sentiment": "Pozitif",
+    "tur": "Şikayet",
+    "intent": "Yanlış ürün",
+    "intent_detay": "Yanlış ürün gönderimi"
+    },
+    {
+    "sohbet_id": 90027,
+    "tarih_saat": "04.09.2024 15:30:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 15:30:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 15:30:10",
+    "text": "Hesabımı kapatmak istiyorum."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 15:30:25",
+    "text": "Hesabınızı Hesabım sayfasından 'Hesabımı Kapat' butonu ile kapatabilirsiniz."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 15:30:40",
+    "text": "Anladım, teşekkürler."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 15:30:55",
+    "text": "Rica ederim. Başka bir şey olursa buradayım."
+    }
+    ],
+    "yanit_durumu": "Çözüldü",
+    "sentiment": "Nötr",
+    "tur": "İstek",
+    "intent": "Hesap kapatma",
+    "intent_detay": "Hesap kapatma"
+    },
+    {
+    "sohbet_id": 90028,
+    "tarih_saat": "04.09.2024 15:45:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 15:45:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 15:45:15",
+    "text": "Siparişimde bir ürün eksik geldi, ancak siparişi verdiğimde ürünün stokta olduğunu görüyordum."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 15:45:30",
+    "text": "Sipariş numaranızı alabilir miyim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 15:45:45",
+    "text": "987456321"
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 15:46:00",
+    "text": "Stok durumunu kontrol ettim. Ürününüz stokta bulunmuyor, bu nedenle siparişinize eklenememiş. En kısa sürede para iadesi yapılacaktır."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 15:46:15",
+    "text": "O zaman neden ürünü sipariş verdirdiniz? İade istemiyorum, ürünü istiyorum. Çok kötü bir deneyim oldu."
+    }
+    ],
+    "yanit_durumu": "Çözülemedi",
+    "sentiment": "Negatif",
+    "tur": "Şikayet",
+    "intent": "Eksik ürün",
+    "intent_detay": "Stokta görünen ürünün eksik gelmesi"
+    },
+    {
+    "sohbet_id": 90029,
+    "tarih_saat": "04.09.2024 16:00:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 16:00:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 16:00:10",
+    "text": "İade sürecinde bir sorun çıktı, iade kodum geçersiz görünüyor."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 16:00:25",
+    "text": "Sipariş ve iade kodunuzu alabilir miyim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 16:00:40",
+    "text": "456123789. İade kodu XYZ-1234."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 16:00:55",
+    "text": "İade kodunuzun süresi dolmuş olabilir. Sizin için yeni bir iade kodu oluşturdum: ABC-5678."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 16:01:10",
+    "text": "Harika! Çok teşekkürler."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 16:01:25",
+    "text": "Rica ederim. Başka bir şey olursa yardımcı olmaktan mutluluk duyarım."
+    }
+    ],
+    "yanit_durumu": "Çözüldü",
+    "sentiment": "Pozitif",
+    "tur": "Sorun",
+    "intent": "İade",
+    "intent_detay": "İade kodunun geçersiz olması"
+    },
+    {
+    "sohbet_id": 90030,
+    "tarih_saat": "04.09.2024 16:15:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 16:15:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 16:15:10",
+    "text": "Siparişimin teslimat adresi yanlış yazılmış, nasıl düzeltebilirim?"
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 16:15:25",
+    "text": "Siparişiniz henüz kargoya verilmediyse, hesabım bölümünden sipariş detaylarına giderek adresinizi güncelleyebilirsiniz."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 16:15:40",
+    "text": "Sipariş vereli 10 dakika oldu, ne zaman kargoya verilir?"
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 16:15:55",
+    "text": "Siparişler genellikle 1 iş günü içinde kargoya verilir. Lütfen güncellemeyi yapın."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 16:16:10",
+    "text": "Teşekkürler, çok yardımcı oldunuz."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 16:16:20",
+    "text": "Rica ederim, iyi günler."
+    }
+    ],
+    "yanit_durumu": "Çözüldü",
+    "sentiment": "Pozitif",
+    "tur": "Sorun",
+    "intent": "Adres hatası",
+    "intent_detay": "Yanlış teslimat adresi"
+    },
+    {
+    "sohbet_id": 90031,
+    "tarih_saat": "04.09.2024 16:30:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 16:30:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 16:30:15",
+    "text": "Siparişimin durumu hakkında bilgi almak istiyorum."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 16:30:30",
+    "text": "Sipariş numaranızı paylaşır mısınız?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 16:30:45",
+    "text": "54321678"
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 16:31:00",
+    "text": "Siparişiniz kargoya verilmiş ve yolda. Tahmini teslimat tarihi 3-4 gün içinde."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 16:31:15",
+    "text": "Tamam, çok sağolun."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 16:31:25",
+    "text": "Rica ederim. Başka bir sorunuz olursa buradayım."
+    }
+    ],
+    "yanit_durumu": "Çözüldü",
+    "sentiment": "Nötr",
+    "tur": "Soru",
+    "intent": "Sipariş",
+    "intent_detay": "Sipariş durumu"
+    },
+    {
+    "sohbet_id": 90032,
+    "tarih_saat": "04.09.2024 16:45:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 16:45:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 16:45:10",
+    "text": "Sipariş verdim ama hesabımdan para çekilmedi."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 16:45:25",
+    "text": "Sipariş numaranızı alabilir miyim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 16:45:40",
+    "text": "34567890"
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 16:45:55",
+    "text": "Kontrol ettim, siparişiniz tamamlanmamış görünüyor. Lütfen tekrar deneyin."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 16:46:10",
+    "text": "Tekrar denedim yine olmadı. Ne yapabilirim?"
+    }
+    ],
+    "yanit_durumu": "Çözülemedi",
+    "sentiment": "Negatif",
+    "tur": "Sorun",
+    "intent": "Ödeme",
+    "intent_detay": "Ödemenin tamamlanmaması"
+    },
+    {
+    "sohbet_id": 90033,
+    "tarih_saat": "04.09.2024 17:00:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 17:00:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 17:00:10",
+    "text": "Ürünü denemek için sipariş verdim, bedeni olmadı."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 17:00:25",
+    "text": "Bu durumda iade sürecini başlatabilirsiniz. Lütfen sipariş numaranızı girin."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 17:00:40",
+    "text": "12398765"
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 17:00:55",
+    "text": "İade kodunuz oluşturulmuştur. Kargoya ücretsiz olarak verebilirsiniz. "
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 17:01:10",
+    "text": "Çok teşekkür ederim, çok hızlı oldu."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 17:01:20",
+    "text": "Rica ederim. Başka bir sorunuz olursa buradayım."
+    }
+    ],
+    "yanit_durumu": "Çözüldü",
+    "sentiment": "Pozitif",
+    "tur": "İade",
+    "intent": "Beden",
+    "intent_detay": "Beden uyuşmazlığı"
+    },
+    {
+    "sohbet_id": 90034,
+    "tarih_saat": "04.09.2024 17:15:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 17:15:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 17:15:15",
+    "text": "Kupon kodum neden çalışmıyor?"
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 17:15:30",
+    "text": "Kupon kodunuzun süresi dolmuş veya geçerli olduğu ürün ve sepet tutarı kriterlerini karşılamıyor olabilir."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 17:15:45",
+    "text": "Kontrol ettim, her şey uygun görünüyor. Başka bir sebep olabilir mi?"
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 17:16:00",
+    "text": "Maalesef, sistemde kuponunuzla ilgili bir hata görünmüyor."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 17:16:15",
+    "text": "O zaman ne yapacağım? Bir çözümünüz yok mu? Çok kötü bir hizmet."
+    }
+    ],
+    "yanit_durumu": "Çözülemedi",
+    "sentiment": "Negatif",
+    "tur": "Sorun",
+    "intent": "Kupon",
+    "intent_detay": "Kupon kodunun çalışmaması"
+    },
+    {
+    "sohbet_id": 90035,
+    "tarih_saat": "04.09.2024 17:30:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 17:30:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 17:30:10",
+    "text": "Kargom nerede kaldı? Takip numaram çalışmıyor."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 17:30:25",
+    "text": "Kargo takip numaranızı paylaşır mısınız?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 17:30:40",
+    "text": "1234567890"
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 17:30:55",
+    "text": "Kontrol ediyorum... Kargonuz henüz kargo firmasına teslim edilmemiş. Lütfen biraz bekleyin."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 17:31:10",
+    "text": "Ne kadar bekleyeceğim? Bu durumdan hiç memnun kalmadım."
+    }
+    ],
+    "yanit_durumu": "Çözülemedi",
+    "sentiment": "Negatif",
+    "tur": "Soru",
+    "intent": "Kargo",
+    "intent_detay": "Kargonun gecikmesi"
+    },
+    {
+    "sohbet_id": 90036,
+    "tarih_saat": "04.09.2024 17:45:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 17:45:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 17:45:10",
+    "text": "Müşteri temsilcisiyle görüşmek istiyorum."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 17:45:25",
+    "text": "Belirli bir konuda yardımcı olabilmem için sorununuzu yazabilir misiniz?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 17:45:40",
+    "text": "Siparişimi iptal etmek istiyorum. Sipariş numarası: 87654321."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 17:45:55",
+    "text": "Siparişiniz kargoya verilmeden iptal edilmiştir. Başka bir şeye ihtiyacınız olursa buradayım."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 17:46:10",
+    "text": "Teşekkür ederim."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 17:46:25",
+    "text": "Rica ederim."
+    }
+    ],
+    "yanit_durumu": "Çözüldü",
+    "sentiment": "Pozitif",
+    "tur": "İstek",
+    "intent": "İptal",
+    "intent_detay": "Sipariş iptali"
+    },
+    {
+    "sohbet_id": 90037,
+    "tarih_saat": "04.09.2024 18:00:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 18:00:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 18:00:15",
+    "text": "Ürünümde bir hata var, tamir ettirmek istiyorum."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 18:00:30",
+    "text": "Hangi ürün olduğunu ve hatanın ne olduğunu belirtir misiniz?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 18:00:45",
+    "text": "Kulaklık. Şarjı tutmuyor. Garanti kapsamında tamir ettirebilir miyim?"
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 18:01:00",
+    "text": "Ürününüzü teknik servisimize göndermeniz gerekmektedir. Adres ve gönderim detayları için e-posta adresinizi paylaşır mısınız?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 18:01:15",
+    "text": "Tamam, teşekkürler."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 18:01:25",
+    "text": "Rica ederim. Sorunuz çözüldü mü?"
+    }
+    ],
+    "yanit_durumu": "Çözüldü",
+    "sentiment": "Nötr",
+    "tur": "Sorun",
+    "intent": "Teknik sorun",
+    "intent_detay": "Garanti kapsamında tamir"
+    },
+    {
+    "sohbet_id": 90038,
+    "tarih_saat": "04.09.2024 18:15:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 18:15:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 18:15:10",
+    "text": "E-posta bülteninizden çıkmak istiyorum."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 18:15:25",
+    "text": "Size gönderilen e-postaların en altında yer alan 'abonelikten çık' linkini kullanarak bu işlemi gerçekleştirebilirsiniz."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 18:15:40",
+    "text": "Anladım. Teşekkürler."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 18:15:55",
+    "text": "Rica ederim, iyi günler."
+    }
+    ],
+    "yanit_durumu": "Çözüldü",
+    "sentiment": "Nötr",
+    "tur": "İstek",
+    "intent": "Abonelik",
+    "intent_detay": "E-posta aboneliği iptali"
+    },
+    {
+    "sohbet_id": 90039,
+    "tarih_saat": "04.09.2024 18:30:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 18:30:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 18:30:10",
+    "text": "Kargom 2 gün önce dağıtıma çıktı, neden hala gelmedi?"
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 18:30:25",
+    "text": "Sipariş numaranızı alabilir miyim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 18:30:40",
+    "text": "876543210"
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 18:30:55",
+    "text": "Kargo firmasıyla iletişime geçtik. Kargonuzda bir gecikme yaşanmış. Yarın gün içinde size teslim edilecektir."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 18:31:10",
+    "text": "Tamam, teşekkürler. Artık yarın gelsin."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 18:31:25",
+    "text": "Rica ederim, iyi günler."
+    }
+    ],
+    "yanit_durumu": "Çözüldü",
+    "sentiment": "Nötr",
+    "tur": "Sorun",
+    "intent": "Kargo",
+    "intent_detay": "Kargo gecikmesi"
+    },
+    {
+    "sohbet_id": 90040,
+    "tarih_saat": "04.09.2024 18:45:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 18:45:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 18:45:10",
+    "text": "İade sürecim neden bu kadar uzun sürüyor? 10 gündür bekliyorum."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 18:45:25",
+    "text": "İade numaranızı paylaşır mısınız?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 18:45:40",
+    "text": "123456"
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 18:45:55",
+    "text": "İadeniz depomuza ulaşmış ancak inceleme aşamasında. Bu süreç bankaya yansımadan önce 1-3 iş günü sürebilir."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 18:46:10",
+    "text": "10 gündür bekliyorum. Bu ne demek? Artık yeter. Ne kadar kötü bir hizmet."
+    }
+    ],
+    "yanit_durumu": "Çözülemedi",
+    "sentiment": "Negatif",
+    "tur": "Şikayet",
+    "intent": "İade",
+    "intent_detay": "İade süreci gecikmesi"
+    }
+    ]

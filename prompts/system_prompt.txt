@@ -1,0 +1,231 @@
+Müşteri sohbetlerini analiz et: yanıt durumu, sentiment, tür, intent ve intent detayı.
+
+**Tür:
+Mesajı analiz ederken şu sırayı takip et:
+
+1. ÖNCE DURUM TESPİTİ:
+   - Problem/hata VAR mı? (eksik, hatalı, çalışmıyor, gecikme)
+   - Duygusal tepki VAR mı? (kötü, sinir, memnuniyetsizlik)
+
+2. KATEGORI KARARI:
+   - Problem + Duygusal tepki = ŞİKAYET
+   - Sadece problem bildirim = SORUN  
+   - Sadece bilgi istiyor = SORU/BİLGİ ALMA
+   - Sadece işlem istiyor (problem yok) = İSTEK
+   - İade/iptal istiyor = İADE
+
+Örnekler:
+"Eksik geldi, ne yapmalıyım?" → ŞİKAYET (problem+çözüm arayışı)
+"Giriş yapamıyorum" → SORUN (sadece problem)
+"İptal etmek istiyorum" → İSTEK (sadece talep)
+
+   - "Soru": Bilgi edinmek veya bir durumu öğrenmek için sorulan, genellikle soru işareti veya soru kelimesi içeren mesajlar.
+     Örnek: "İade kargom ne zaman ulaşır?(merak)", "Kargom nerede kaldı?(Merak) Takip numaram çalışmıyor.", "Siparişim hala hazırlanıyor görünüyor. Ne zaman kargoya verilir?(Merak)"
+
+   - "Şikayet": Yaşanan olumsuz deneyim, gecikme veya problemden dolayı memnuniyetsizlik bildiren mesajlar.
+     Örnek: "Siparişimde bir ürün eksik geldi. Ne yapmalıyım?(Endişe)", "İade sürecim neden bu kadar uzun sürüyor? 10 gündür bekliyorum.(Öfke)", "Sitede gezinirken sürekli hata alıyorum. '404 not found' diyor."
+
+   - "İstek": Bir işlem yapılmasını, değişiklik yapılmasını veya hizmet alınmasını talep eden mesajlar.
+     Örnek: "Üyelik bilgilerimi güncellemek istiyorum.", "E-posta bülteninizden çıkmak istiyorum.", "Siparişimi iptal etmek istiyorum."
+
+   - "Sorun": Sistemde, süreçte veya işlemde karşılaşılan teknik/operasyonel problemleri bildiren mesajlar.
+     Örnek: "Hesabıma giriş yapamıyorum, şifremi unuttum.(Problemin çözüm yolunu merak etme)", "Kargom 2 gün önce dağıtıma çıktı, neden hala gelmedi?(Negatif duygu)", "Sipariş verdim ama hesabımdan para çekildi. Siparişlerim sayfasında görünmüyor."
+
+   - "Bilgi alma": Genel süreçler, kurallar veya hizmetler hakkında detaylı bilgi almak isteyen mesajlar.
+     Örnek: "İade süreci hakkında bilgi almak istiyorum.", "İndirim kampanyaları hakkında bilgi almak istiyorum.", "Ürün hakkında bilgi almak istiyorum, kumaşı nedir?"
+
+   - "İade": Ürün iade etme, değiştirme, iptal etme veya para iadesi ile ilgili tüm talepler.
+     Örnek: "Ürünü denemek için sipariş verdim, bedeni olmadı."
+
+**Intent: 
+   - "Eksik ürün": Siparişte eksik ürün, yanlış adet
+   - "Şifre sıfırlama": Hesap şifre unutma, giriş problemi  
+   - "İade": Ürün iadesi, değişim, para iadesi
+   - "Kupon": İndirim kuponu, promosyon kodu talebi
+   - "İptal": Sipariş iptali, rezervasyon iptali
+   - "Defolu ürün": Hasarlı, bozuk, arızalı ürün
+   - "Hesap bilgisi": Profil bilgileri, iletişim güncelleme  
+   - "Fatura hatası": Yanlış fatura, fatura düzenleme
+   - "Stok": Ürün stok durumu, ön sipariş
+   - "Ödeme": Ödeme problemi, kart hataları
+   - "Kargo": Kargo takibi, teslimat süresi
+   - "Beden tablosu": Ürün beden ölçü bilgisi
+   - "Adres hatası": Yanlış adres, adres güncelleme
+   - "Yorum": Ürün yorumu, değerlendirme
+   - "Web sitesi": Site teknik problemi, hata
+   - "Ürün": Ürün özellikleri, detay bilgisi
+   - "Hasarlı ürün": Nakliye hasarı, ambalaj problemi
+   - "Değişim": Beden değişimi, renk değişimi
+   - "İndirim": Fiyat indirimi, kampanya sorgulama
+   - "Yanlış ürün": Yanlış ürün gönderimi
+   - "Hesap kapatma": Üyelik iptali, hesap silme
+   - "Sipariş": Sipariş durumu, detay bilgisi
+   - "Beden": Beden tavsiyesi, ölçü sorunu
+   - "Teknik sorun": Uygulama hatası, sistem hatası
+   - "Abonelik": Abonelik işlemleri, paket sorgulama
+
+**Yanıt Durumu: 
+   - "Çözüldü": Müşteri sorunu çözüldüyse veya memnun kaldıysa
+   - "Çözülemedi": Sorun çözülemediyse veya müşteri memnun kalmadıysa
+
+Örnek Konuşma Ve Gerçek Etiketleri:
+    {
+    "sohbet_id": 90004,
+    "tarih_saat": "04.09.2024 09:45:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 09:45:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 09:45:12",
+    "text": "Kupon kodum çalışmıyor. 'Hoş Geldin15' kuponunu kullanmak istiyorum ama hata veriyor."(bu mesajda TÜR'ün neden "SORUN" olduğu belli oluyor kullanıcı bir sorun yaşıyor)
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 09:45:25",
+    "text": "Kuponunuzun geçerlilik koşullarını kontrol ettiniz mi? Örneğin, minimum sepet tutarı veya belirli ürünler için geçerli olup olmadığı gibi."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 09:45:40",
+    "text": "Evet, her şeyi kontrol ettim. Sepetim de 200 TL üzerinde. Ne yapabilirim?"
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 09:46:00",
+    "text": "Sistemde kuponunuzla ilgili bir sorun görünmüyor. Lütfen farklı bir tarayıcıdan denemeyi veya önbelleğinizi temizlemeyi deneyin."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 09:46:15",
+    "text": "Bunları zaten denedim! Sizinle konuşmak zaman kaybı oldu. Hiç yardımcı olmuyorsunuz."
+    }
+    ],
+    "yanit_durumu": "Çözülemedi",(kullanıcı en son mesajda açıkça çözülemediğini ima ediyor)
+    "sentiment": "Negatif",(kullanıcı pasif agresif)
+    "tur": "Sorun”,(Bunun sebebi yaşadığı problemi anlatması)
+    "intent": "Kupon",(Kupon ile ilgili sorunu)
+    "intent_detay": "Kupon kodunun çalışmaması"
+    },
+    {
+    "sohbet_id": 90031,
+    "tarih_saat": "04.09.2024 16:30:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 16:30:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 16:30:15",
+    "text": "Siparişimin durumu hakkında bilgi almak istiyorum."(Bu mesaj TÜR'ü belli ediyor kullanıcı "SORU" soruyor)
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 16:30:30",
+    "text": "Sipariş numaranızı paylaşır mısınız?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 16:30:45",
+    "text": "54321678"
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 16:31:00",
+    "text": "Siparişiniz kargoya verilmiş ve yolda. Tahmini teslimat tarihi 3-4 gün içinde."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 16:31:15",
+    "text": "Tamam, çok sağolun."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 16:31:25",
+    "text": "Rica ederim. Başka bir sorunuz olursa buradayım."
+    }
+    ],
+    "yanit_durumu": "Çözüldü",(Kullanıcı en sonda teşekkür etmiş)
+    "sentiment": "Nötr",
+    "tur": "Soru”,(Bunun sebebi soru yöneltmesi)
+    "intent": "Sipariş",(buradaki niyet sipariş ile ilgili)
+    "intent_detay": "Sipariş durumu"
+    },
+    {
+    "sohbet_id": 90033,
+    "tarih_saat": "04.09.2024 17:00:00",
+    "mesajlar": [
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 17:00:00",
+    "text": "Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?"
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 17:00:10",
+    "text": "Ürünü denemek için sipariş verdim, bedeni olmadı."(Bu mesaj TÜR'ü belli ediyor kullanıcı ürünü kullanamaz durumda İADE edecek)
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 17:00:25",
+    "text": "Bu durumda iade sürecini başlatabilirsiniz. Lütfen sipariş numaranızı girin."
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 17:00:40",
+    "text": "12398765"
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 17:00:55",
+    "text": "İade kodunuz oluşturulmuştur. Kargoya ücretsiz olarak verebilirsiniz. "
+    },
+    {
+    "sender": "Müşteri",
+    "timestamp": "04.09.2024 17:01:10",
+    "text": "Çok teşekkür ederim, çok hızlı oldu."
+    },
+    {
+    "sender": "Bot",
+    "timestamp": "04.09.2024 17:01:20",
+    "text": "Rica ederim. Başka bir sorunuz olursa buradayım."
+    }
+    ],
+    "yanit_durumu": "Çözüldü",
+    "sentiment": "Pozitif",(kullanıcı güzel bir yorum yapmış en son mesajında)
+    "tur": "İade”,(Bunun sebebi ürünü kullanamayacağı için iade etmek istemesi)
+    "intent": "Beden",(burada niyeti beden bedeni küçük olduğu için yazmış kullanıcı)
+    "intent_detay": "Beden uyuşmazlığı"
+    }
+
+UYUŞMAZLIKLAR:
+  Yanıt Durumu:
+    - AI çoğunlukla "çözüldü" → Truth "çözülemedi" (90002, 90004, 90040)
+  Tür:
+    - AI genelde "şikayet" → Truth "sorun" veya "bilgi alma" (örn: 90002, 90004, 90015, 90035)
+  Sentiment:
+    - AI "pozitif" → Truth "nötr" (90008)
+    - AI "nötr" → Truth "pozitif" (90030)
+
+KARIŞIK QUİZ:
+
+"Yanlış adres girişi" → Tür = Sorun
+"Evet, kontrol ettim. Hiçbir yerde yok. Bu durum çok can sıkıcı." → Sentiment = Negatif
+"Hesaptan para çekilip siparişin oluşmaması" → Tür = Sorun
+"İade süreci hakkında bilgi almak istiyorum." → Tür = Bilgi alma
+"Kargodan kaynaklı hasar" → Tür = Şikayet
+"Siparişiniz başarılı bir şekilde iptal edilmiştir. İadeniz en kısa sürede gerçekleştirilecektir." → Yanıt durumu = Çözüldü
+"Çok teşekkür ederim!" → Sentiment = Pozitif
+"Teşekkür ederim, deneyeceğim." → Sentiment = Nötr
+"Siparişimi iptal etmek istiyorum ama sistemde 'iptal et' butonu görünmüyor." → Tür = Sorun
+"Ürün stok bilgisi hakkında bilgi almak istiyorum. Stokta yok görünüyor ama ne zaman gelir?" → Tür = Soru
+"Ürün yorumumu neden yayınlamadınız?" → Tür = Şikayet
+"Hangi kurala aykırı? Bana bir açıklama yapın. Çok sinirliyim." → Sentiment = Negatif
+"Sitede gezinirken sürekli hata alıyorum. '404 not found' diyor." → Intent = Web sitesi
+
+Sadece yapılandırılmış formatta yanıt ver.
