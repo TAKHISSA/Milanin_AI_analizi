@@ -4,6 +4,8 @@ Müşteri sohbetlerini analiz et: yanıt durumu, sentiment, tür, intent ve inte
 Mesajı analiz ederken şu sırayı takip et:
 
 1. ÖNCE DURUM TESPİTİ:
+   - Tür olarak şikayet yerine sorun de
+   - Daha yüksek oranlar müşteri mesajları ile olur.
    - Problem/hata VAR mı? (eksik, hatalı, çalışmıyor, gecikme)
    - Duygusal tepki VAR mı? (kötü, sinir, memnuniyetsizlik)
 
@@ -35,19 +37,26 @@ Mesajı analiz ederken şu sırayı takip et:
      Örnek: "İade süreci hakkında bilgi almak istiyorum.", "İndirim kampanyaları hakkında bilgi almak istiyorum.", "Ürün hakkında bilgi almak istiyorum, kumaşı nedir?"
 
    - "İade": Ürün iade etme, değiştirme, iptal etme veya para iadesi ile ilgili tüm talepler.
-     Örnek: "Ürünü denemek için sipariş verdim, bedeni olmadı."
 
 **Intent: 
    - "Eksik ürün": Siparişte eksik ürün, yanlış adet
-   - "Şifre sıfırlama": Hesap şifre unutma, giriş problemi  
+         Örnek: "Siparişimde bir ürün eksik geldi. Ne yapmalıyım?"
+   - "Şifre sıfırlama": Hesap şifre unutma, giriş problemi
+         Örnek: "Şifre sıfırlama linki için e-posta adresinizi girer misiniz?"
    - "İade": Ürün iadesi, değişim, para iadesi
+         Örnek: "İade süreci hakkında bilgi almak istiyorum."
    - "Kupon": İndirim kuponu, promosyon kodu talebi
    - "İptal": Sipariş iptali, rezervasyon iptali
+         Örnek: "Siparişimi iptal etmek istiyorum."
    - "Defolu ürün": Hasarlı, bozuk, arızalı ürün
+         Örnek: "Ürünüm defolu geldi. Değişim veya iade yapmak istiyorum."
    - "Hesap bilgisi": Profil bilgileri, iletişim güncelleme  
+        Örnek: "Üyelik bilgilerimi güncellemek istiyorum."  
    - "Fatura hatası": Yanlış fatura, fatura düzenleme
+        Örnek: "Faturamda bir yanlışlık var. Fiyatlar hatalı görünüyor."
    - "Stok": Ürün stok durumu, ön sipariş
    - "Ödeme": Ödeme problemi, kart hataları
+        Örnek: "Kredi kartımdan iki kez çekim yapılmış."
    - "Kargo": Kargo takibi, teslimat süresi
    - "Beden tablosu": Ürün beden ölçü bilgisi
    - "Adres hatası": Yanlış adres, adres güncelleme
@@ -86,7 +95,7 @@ Mesajı analiz ederken şu sırayı takip et:
     {
     "sender": "Bot",
     "timestamp": "04.09.2024 09:45:25",
-    "text": "Kuponunuzun geçerlilik koşullarını kontrol ettiniz mi? Örneğin, minimum sepet tutarı veya belirli ürünler için geçerli olup olmadığı gibi."
+    "text": "Kuponunuzun geçerlilik koşullarını kontrol ettiniz mi? Örneğin, minimum sepet tutarı veya belirli ürünler için geçerli olup olmadığı gibi."(bot SORUNU çözmeye çalışıyor)
     },
     {
     "sender": "Müşteri",
@@ -101,7 +110,7 @@ Mesajı analiz ederken şu sırayı takip et:
     {
     "sender": "Müşteri",
     "timestamp": "04.09.2024 09:46:15",
-    "text": "Bunları zaten denedim! Sizinle konuşmak zaman kaybı oldu. Hiç yardımcı olmuyorsunuz."
+    "text": "Bunları zaten denedim! Sizinle konuşmak zaman kaybı oldu. Hiç yardımcı olmuyorsunuz."(hayal kırıklığı çünkü sorunu çözülmedi)
     }
     ],
     "yanit_durumu": "Çözülemedi",(kullanıcı en son mesajda açıkça çözülemediğini ima ediyor)
@@ -142,7 +151,7 @@ Mesajı analiz ederken şu sırayı takip et:
     {
     "sender": "Müşteri",
     "timestamp": "04.09.2024 16:31:15",
-    "text": "Tamam, çok sağolun."
+    "text": "Tamam, çok sağolun."(Nötr duyguda olsa da sorusu çözülmüş)
     },
     {
     "sender": "Bot",
@@ -188,7 +197,7 @@ Mesajı analiz ederken şu sırayı takip et:
     {
     "sender": "Müşteri",
     "timestamp": "04.09.2024 17:01:10",
-    "text": "Çok teşekkür ederim, çok hızlı oldu."
+    "text": "Çok teşekkür ederim, çok hızlı oldu."(Müşteri iade edebildiği için mutlu)
     },
     {
     "sender": "Bot",
@@ -211,6 +220,9 @@ UYUŞMAZLIKLAR:
   Sentiment:
     - AI "pozitif" → Truth "nötr" (90008)
     - AI "nötr" → Truth "pozitif" (90030)
+
+"sinir", "kötü", "berbat", "bıktım", "yeter", "kızgın"--> ŞİKAYET 
+"çalışmıyor", "yapamıyorum", "hata", "reddediliyor", "gelmiyor"-->SORUN
 
 KARIŞIK QUİZ:
 

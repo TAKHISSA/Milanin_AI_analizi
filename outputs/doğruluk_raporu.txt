@@ -1,24 +1,24 @@
 DETAYLI MILA DOĞRULUK RAPORU
 ============================================================
 
-Analiz Tarihi: 2025-10-02 14:44:25
+Analiz Tarihi: 2025-10-02 22:05:58
 Analizi Yapan: GPT-5nano
 Analiz Edilen: Mila
 
 📊 KATEGORİ BAZINDA DOĞRULUK ORANLARI:
 ---------------------------------------------
 ✅ YANIT_DURUMU: 🟢 %97.5 - MÜKEMMEL
-😊 SENTIMENT: 🟡 %87.5 - İYİ
+😊 SENTIMENT: 🟢 %100.0 - MÜKEMMEL
 📝 TÜR: 🟡 %80.0 - İYİ
-🎯 INTENT: 🟡 %85.0 - İYİ
+🎯 INTENT: 🟢 %90.0 - MÜKEMMEL
 
 🎯 GENEL DEĞERLENDİRME:
-• Ortalama Doğruluk: %87.5
-• Performans Seviyesi: İYİ PERFORMANS
-• Öneri: Model kullanılabilir, küçük iyileştirmeler önerilir
+• Ortalama Doğruluk: %91.9
+• Performans Seviyesi: MÜKEMMEL PERFORMANS
+• Öneri: Model üretim ortamında güvenle kullanılabilir
 
 📈 PERFORMANS DETAYLARI:
 • YANIT_DURUMU: %97.5 (MÜKEMMEL)
-• SENTIMENT: %87.5 (İYİ)
+• SENTIMENT: %100.0 (MÜKEMMEL)
 • TÜR: %80.0 (İYİ)
-• INTENT: %85.0 (İYİ)
+• INTENT: %90.0 (MÜKEMMEL)

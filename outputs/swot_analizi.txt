@@ -1,41 +1,41 @@
 DETAYLI MILA SWOT ANALİZİ
 ============================================================
 
-Analiz Tarihi: 2025-10-02 14:44:25
+Analiz Tarihi: 2025-10-02 22:05:58
 Analizi Yapan: GPT-5nano
 Analiz Edilen: Mila
 
 📊 GENEL PERFORMANS İSTATİSTİKLERİ:
 ----------------------------------------
 • Toplam Analiz Edilen Sohbet: 40
-• Başarıyla Çözülen: 23 (%57.5)
-• Çözülemeyen: 17 (%42.5)
-• Pozitif Deneyim: 13 (%32.5)
+• Başarıyla Çözülen: 25 (%62.5)
+• Çözülemeyen: 15 (%37.5)
+• Pozitif Deneyim: 10 (%25.0)
 • Negatif Deneyim: 16 (%40.0)
-• Nötr Deneyim: 11 (%27.5)
-• Anlaşılan Farklı Niyet Sayısı: 22
-• Ortalama Yanıt Uzunluğu: 42 karakter
+• Nötr Deneyim: 14 (%35.0)
+• Anlaşılan Farklı Niyet Sayısı: 23
+• Ortalama Yanıt Uzunluğu: 44 karakter
 
 💪 GÜÇLÜ YÖNLER:
 --------------------
-1. ✅ Temel çözüm yeteneği (%57.5) - bazı sorunları çözebiliyor
-2. ✅ Kabul edilebilir müşteri tepkisi (%32.5) - bazı kullanıcılar memnun
-3. ✅ Geniş kapsamlı anlama yeteneği - 22 farklı niyeti anlayabiliyor
+1. ✅ İyi çözüm oranı (%62.5) - temel sorunları etkili şekilde çözüyor
+2. ✅ Kabul edilebilir müşteri tepkisi (%25.0) - bazı kullanıcılar memnun
+3. ✅ Geniş kapsamlı anlama yeteneği - 23 farklı niyeti anlayabiliyor
 
 ⚠️ ZAYIF YÖNLER:
 --------------------
-1. ❌ Ciddi çözüm açığı (%42.5) - sohbetlerin neredeyse yarısı çözümsüz kalıyor
+1. ❌ Önemli çözüm eksikliği (%37.5) - her 5 sohbetten 1'i çözülemiyor
 2. ❌ Ciddi müşteri memnuniyetsizliği (%40.0) - kullanıcıların üçte biri memnun değil
-3. ❌ 'İade' konusunda kritik başarısızlık - çözülemeyen sohbetlerin %17.6'u
-4. ❌ 'Ödeme' konusunda kritik başarısızlık - çözülemeyen sohbetlerin %17.6'u
-5. ❌ 'Kupon' konusunda kritik başarısızlık - çözülemeyen sohbetlerin %11.8'u
+3. ❌ 'Ödeme' konusunda kritik başarısızlık - çözülemeyen sohbetlerin %20.0'u
+4. ❌ 'Kupon' konusunda kritik başarısızlık - çözülemeyen sohbetlerin %13.3'u
+5. ❌ 'İade' konusunda kritik başarısızlık - çözülemeyen sohbetlerin %13.3'u
 
 🚀 FIRSATLAR:
 --------------------
-1. 🔮 'İade' alanında uzmanlaşma - taleplerin %20.0'i bu alandan geliyor
-2. 🔮 Kısa ve öz yanıt yapısı - ortalama 42 karakter ile hızlı iletişim
+1. 🔮 'İade' alanında uzmanlaşma - taleplerin %15.0'i bu alandan geliyor
+2. 🔮 'Ödeme' konusunda derinleşme - önemli talep yoğunluğu (%10.0) mevcut
+3. 🔮 Kısa ve öz yanıt yapısı - ortalama 44 karakter ile hızlı iletişim
 
 🔴 TEHDİTLER:
 --------------------
 1. ⚠️ Yüksek müşteri kaybı riski - negatif deneyim oranı kabul edilemez seviyede
-2. ⚠️ Marka itibarı tehlikesi - çözümsüz sohbet oranı müşteri güvenini sarsıyor

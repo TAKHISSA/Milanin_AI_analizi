@@ -1,55 +1,56 @@
 DETAYLI MILA TALEP ANALİZİ
 ============================================================
 
-Analiz Tarihi: 2025-10-02 14:44:25
+Analiz Tarihi: 2025-10-02 22:05:58
 Analizi Yapan: GPT-5nano
 Analiz Edilen: Mila
 
 📈 GENEL İSTATİSTİKLER:
 -------------------------
 • Toplam Talep: 40
-• Benzersiz Intent Sayısı: 22
-• En Yaygın 5 Talep: %47.5 toplamın
-• Talep Çeşitlilik Oranı: %55.0
+• Benzersiz Intent Sayısı: 23
+• En Yaygın 5 Talep: %45.0 toplamın
+• Talep Çeşitlilik Oranı: %57.5
 
 🎯 TALEP DAĞILIMI (ÖNCELİK SIRASINA GÖRE):
 -------------------------------------------------------
 
-🔹 İADE: %20.0 (8 talep)
-   ⚠️ Çözüm Oranı: %62.5
-   📝 Tür Dağılımı: Şikayet (%50.0), Bilgi alma (%12.5), İstek (%12.5), Soru (%12.5), İade (%12.5)
-   😊 Sentiment: 😊 %37.5 | 😞 %37.5 | 😐 %25.0
-   📋 Detay Çeşitliliği: 8 farklı varyasyon
-      1. İade süreci/para iadesi gecikmesi
-      2. Sipariş iptali ve iade süreci
+🔹 İADE: %15.0 (6 talep)
+   ⚠️ Çözüm Oranı: %66.7
+   📝 Tür Dağılımı: Şikayet (%33.3), İade (%33.3), Bilgi alma (%16.7), Soru (%16.7)
+   😊 Sentiment: 😐 %33.3 | 😞 %33.3 | 😊 %33.3
+   📋 Detay Çeşitliliği: 6 farklı varyasyon
+      1. Beden uyuşmazlığı nedeniyle iade
+      2. İade süreci uzaması ve kötü hizmet
       3. İade kargomun ulaşma süresi
-      ... ve 5 detay daha
+      ... ve 3 detay daha
+
+🔹 ÖDEME: %10.0 (4 talep)
+   ❌ Çözüm Oranı: %25.0
+   📝 Tür Dağılımı: Sorun (%100.0)
+   😊 Sentiment: 😞 %100.0
+   📋 Detay Çeşitliliği: 4 farklı varyasyon
+      1. Kredi kartı iki kez çekim işlemi (çekim hatası)
+      2. Hesap üzerinden çekim yapılmış ancak sipariş görünmüyor/ödemeye dair sorun
+      3. Hesap üzerinden ödeme çekilmemesi/tekrar deneme?
+      ... ve 1 detay daha
 
 🔹 EKSIK ÜRÜN: %7.5 (3 talep)
    ⚠️ Çözüm Oranı: %66.7
    📝 Tür Dağılımı: Şikayet (%100.0)
    😊 Sentiment: 😊 %66.7 | 😞 %33.3
    📋 Detay Çeşitliliği: 3 farklı varyasyon
-      1. Siparişte eksik/promosyon ürünleri
-      2. Siparişte eksik ürün ve stok hatası nedeniyle memnuniyetsizlik; iade istemiyorum, ürünün ısrarla tem
-      3. Siparişte eksik ürün olması ve çözüm talebi
+      1. Siparişte eksik ürün ve stok hatası nedeniyle sorun yaşanıyor
+      2. Siparişte eksik/promosyon ürünlerin olması ve çözüm talebi
+      3. Siparişte eksik ürün bildirimi
 
-🔹 KARGO: %7.5 (3 talep)
-   ❌ Çözüm Oranı: %33.3
-   📝 Tür Dağılımı: Şikayet (%66.7), Sorun (%33.3)
-   😊 Sentiment: 😞 %66.7 | 😐 %33.3
+🔹 İPTAL: %7.5 (3 talep)
+   ⚠️ Çözüm Oranı: %66.7
+   📝 Tür Dağılımı: İstek (%66.7), Sorun (%33.3)
+   😊 Sentiment: 😊 %66.7 | 😞 %33.3
    📋 Detay Çeşitliliği: 2 farklı varyasyon
-      1. Çift çekim/ödemeyle ilgili sorun
-      2. Kargo takibi ve teslimat gecikmesi
-
-🔹 ÖDEME: %7.5 (3 talep)
-   ❌ Çözüm Oranı: %0.0
-   📝 Tür Dağılımı: Sorun (%100.0)
-   😊 Sentiment: 😞 %100.0
-   📋 Detay Çeşitliliği: 3 farklı varyasyon
-      1. Ödeme problemi - sipariş için ödeme işleminin gerçekleşmemesi
-      2. Kredi kartı reddedilmesi
-      3. Hesaplardan ödeme çekilmesi fakat sipariş görünmüyor / iade süreci ve para iadesi bekleniyor
+      1. İptal butonunun görünmemesi ve iptal edilememesi nedeniyle hizmetten memnuniyetsizlik
+      2. Sipariş iptali
 
 🔹 KUPON: %5.0 (2 talep)
    ❌ Çözüm Oranı: %0.0
@@ -58,13 +59,13 @@ Analiz Edilen: Mila
    📋 Detay Çeşitliliği: 1 farklı varyasyon
       1. Kupon kodunun çalışmaması
 
-🔹 İPTAL: %5.0 (2 talep)
+🔹 HASARLI ÜRÜN: %5.0 (2 talep)
    ❌ Çözüm Oranı: %50.0
-   📝 Tür Dağılımı: Sorun (%50.0), İstek (%50.0)
-   😊 Sentiment: 😞 %50.0 | 😐 %50.0
+   📝 Tür Dağılımı: Şikayet (%100.0)
+   😊 Sentiment: 😞 %50.0 | 😊 %50.0
    📋 Detay Çeşitliliği: 2 farklı varyasyon
-      1. Sipariş iptali
-      2. Sipariş iptalinin sistemde yapılamaması ve iade süreciyle devam etmek zorunda kalınması
+      1. Kargo kaynaklı hasar bildirimi ve değişim talebi
+      2. Defolu ürün için iade/değişim talebi, fotoğraf kanıtı gerektiği konusunda memnuniyetsizlik
 
 🔹 SIPARIŞ: %5.0 (2 talep)
    ✅ Çözüm Oranı: %100.0
@@ -78,20 +79,20 @@ Analiz Edilen: Mila
    📝 Tür Dağılımı: Şikayet (%50.0), Sorun (%50.0)
    😊 Sentiment: 😞 %50.0 | 😊 %50.0
    📋 Detay Çeşitliliği: 2 farklı varyasyon
-      1. Teslimat adresinin yanlış yazılması ve düzeltme talebi
-      2. Yanlış adres girdim, düzeltme yöntemine yönelik sorun
+      1. Adres yanlış girdim ve düzeltme yolu soruldu fakat çözüm sağlayamadı
+      2. Teslimat adresinin yanlış yazılması ve düzeltilmesi
 
-🔹 HASARLI ÜRÜN: %5.0 (2 talep)
-   ✅ Çözüm Oranı: %100.0
-   📝 Tür Dağılımı: Şikayet (%100.0)
-   😊 Sentiment: 😊 %50.0 | 😐 %50.0
+🔹 KARGO: %5.0 (2 talep)
+   ❌ Çözüm Oranı: %50.0
+   📝 Tür Dağılımı: Sorun (%100.0)
+   😊 Sentiment: 😞 %50.0 | 😐 %50.0
    📋 Detay Çeşitliliği: 2 farklı varyasyon
-      1. Kargo/hasar nedeniyle ürün hasarı bildirimi ve değişim talebi
-      2. Kulaklıkta hatalı şarj sorunu ve garanti kapsamında tamir talebi
+      1. Kargo takibi ve gecikme
+      2. Kargonun gecikmesi nedeniyle teslimatın gecikmesi
 
 🔹 ŞIFRE SIFIRLAMA: %2.5 (1 talep)
    ❌ Çözüm Oranı: %0.0
-   📝 Tür Dağılımı: Şikayet (%100.0)
+   📝 Tür Dağılımı: Sorun (%100.0)
    😊 Sentiment: 😞 %100.0
    📋 Detay Çeşitliliği: 1 farklı varyasyon
       1. Şifre sıfırlama linkinin gelmemesi
@@ -101,28 +102,28 @@ Analiz Edilen: Mila
    📝 Tür Dağılımı: İstek (%100.0)
    😊 Sentiment: 😐 %100.0
    📋 Detay Çeşitliliği: 1 farklı varyasyon
-      1. Profil bilgilerini güncelleme
+      1. Üyelik bilgilerimi güncellemek
 
 🔹 FATURA HATASI: %2.5 (1 talep)
    ✅ Çözüm Oranı: %100.0
    📝 Tür Dağılımı: Şikayet (%100.0)
    😊 Sentiment: 😊 %100.0
    📋 Detay Çeşitliliği: 1 farklı varyasyon
-      1. Fatura üzerindeki hatalı fiyatın düzeltilmesi ve yeni faturanın gönderilmesi
+      1. Fatura üzerinde hatalı fiyatlar tespiti ve düzeltme talebi
 
 🔹 STOK: %2.5 (1 talep)
    ✅ Çözüm Oranı: %100.0
    📝 Tür Dağılımı: Soru (%100.0)
    😊 Sentiment: 😐 %100.0
    📋 Detay Çeşitliliği: 1 farklı varyasyon
-      1. Stok bilgisi ve gelecek stok tarihi talebi
+      1. Ürün stok durumu ve stok gelecekteki geliş tarihi bilgisi
 
 🔹 BEDEN TABLOSU: %2.5 (1 talep)
    ✅ Çözüm Oranı: %100.0
    📝 Tür Dağılımı: Bilgi alma (%100.0)
    😊 Sentiment: 😐 %100.0
    📋 Detay Çeşitliliği: 1 farklı varyasyon
-      1. Ürün beden tablosu bilgisi arandı
+      1. Ürün beden tablosu bilgisini bulma
 
 🔹 YORUM: %2.5 (1 talep)
    ❌ Çözüm Oranı: %0.0
@@ -132,25 +133,25 @@ Analiz Edilen: Mila
       1. Ürün yorumu neden yayınlanmadı ve açıklama talebi
 
 🔹 WEB SITESI: %2.5 (1 talep)
-   ❌ Çözüm Oranı: %0.0
+   ✅ Çözüm Oranı: %100.0
    📝 Tür Dağılımı: Bilgi alma (%100.0)
-   😊 Sentiment: 😊 %100.0
+   😊 Sentiment: 😐 %100.0
    📋 Detay Çeşitliliği: 1 farklı varyasyon
-      1. Site teknik problemi/hata
+      1. Web sitesi hatası (404 Not Found) ile ilgili bilgi talebi/şikayet
 
 🔹 ÜRÜN: %2.5 (1 talep)
    ✅ Çözüm Oranı: %100.0
    📝 Tür Dağılımı: Bilgi alma (%100.0)
-   😊 Sentiment: 😊 %100.0
+   😊 Sentiment: 😐 %100.0
    📋 Detay Çeşitliliği: 1 farklı varyasyon
-      1. Ürün hakkında kumaş bilgisi
+      1. Ürün özelliği hakkında bilgi (kumaş niteliği)
 
 🔹 DEĞIŞIM: %2.5 (1 talep)
    ❌ Çözüm Oranı: %0.0
    📝 Tür Dağılımı: Şikayet (%100.0)
    😊 Sentiment: 😞 %100.0
    📋 Detay Çeşitliliği: 1 farklı varyasyon
-      1. Değişim seçeneği yok, iade+yeniden sipariş zahmetli ve memnuniyetsizlik
+      1. Değişim seçeneğinin olmaması ve iade+yeniden siparişin zahmetli oluşu
 
 🔹 İNDIRIM: %2.5 (1 talep)
    ✅ Çözüm Oranı: %100.0
@@ -164,31 +165,39 @@ Analiz Edilen: Mila
    📝 Tür Dağılımı: Şikayet (%100.0)
    😊 Sentiment: 😊 %100.0
    📋 Detay Çeşitliliği: 1 farklı varyasyon
-      1. Yanlış ürün teslimatı ve iade süreci bilgilendirmesi
+      1. Yanlış ürün gönderimi nedeniyle iade/yeniden gönderim süreci başlatıldı
 
 🔹 HESAP KAPATMA: %2.5 (1 talep)
    ✅ Çözüm Oranı: %100.0
    📝 Tür Dağılımı: İstek (%100.0)
-   😊 Sentiment: 😊 %100.0
+   😊 Sentiment: 😐 %100.0
    📋 Detay Çeşitliliği: 1 farklı varyasyon
       1. Hesap kapatma talebi
+
+🔹 DEFOLU ÜRÜN: %2.5 (1 talep)
+   ✅ Çözüm Oranı: %100.0
+   📝 Tür Dağılımı: Şikayet (%100.0)
+   😊 Sentiment: 😐 %100.0
+   📋 Detay Çeşitliliği: 1 farklı varyasyon
+      1. Kulaklıktaki arıza ve garanti kapsamında tamir talebi
 
 🔹 ABONELIK: %2.5 (1 talep)
    ✅ Çözüm Oranı: %100.0
    📝 Tür Dağılımı: İstek (%100.0)
-   😊 Sentiment: 😊 %100.0
+   😊 Sentiment: 😐 %100.0
    📋 Detay Çeşitliliği: 1 farklı varyasyon
-      1. Abonelikten çıkış talebi
+      1. Abonelikten çıkma talebi
 
 📊 TREND ANALİZİ & STRATEJİ ÖNERİLERİ:
 ---------------------------------------------
-🚀 Yüksek Talep (>%10): 1 kategori
-   • İade (%20.0) - ÖNcelikli geliştirme alanı
+🚀 Yüksek Talep (>%10): 2 kategori
+   • İade (%15.0) - ÖNcelikli geliştirme alanı
+   • Ödeme (%10.0) - ÖNcelikli geliştirme alanı
 
-📈 Orta Talep (%5-10): 8 kategori
+📈 Orta Talep (%5-10): 7 kategori
    • Eksik ürün (%7.5) - İkincil geliştirme alanı
-   • Kargo (%7.5) - İkincil geliştirme alanı
-   • Ödeme (%7.5) - İkincil geliştirme alanı
+   • İptal (%7.5) - İkincil geliştirme alanı
+   • Kupon (%5.0) - İkincil geliştirme alanı
 
-📉 Düşük Talep (<%5): 13 kategori
-   • Toplam: %32.5 talep oranı
+📉 Düşük Talep (<%5): 14 kategori
+   • Toplam: %35.0 talep oranı
