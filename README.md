@@ -28,9 +28,9 @@ Mila'nın AI Analiz Aracı, müşteri–bot sohbetlerini yapay zekâ ile analiz 
 | Alan             | Doğruluk (%) |
 |------------------|-------------|
 | **yanıt_durumu** | 97.5%       |
-| **sentiment**    | 87.5%       |
+| **sentiment**    | 100.0%       |
 | **tür**          | 80.0%       |
-| **intent**       | 85.0%       |
+| **intent**       | 90.0%       |
 
 ---
 
