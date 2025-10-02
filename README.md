@@ -11,6 +11,7 @@ Mila'nın AI Analiz Aracı, müşteri–bot sohbetlerini yapay zekâ ile analiz 
 *   **📋 Müşteri Talepleri Özeti:** En sık karşılaşılan talep ve sorunların özeti.
 *   **📂 Excel Çıktısı:** Sohbet bazlı etiketler ve zaman bilgilerini içeren rapor.
 *   **📈 Doğruluk Raporu:** Alan bazlı doğruluk yüzdeleri.
+*   **🤖 Akıllı Prompt Mimarisi:** Kural bazlı yaklaşımdan ziyade çok yönlü analiz ve yönlendirme kapasiteli prompt sistemi.
 
 ---
 
